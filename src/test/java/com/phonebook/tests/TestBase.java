@@ -1,40 +1,59 @@
 package com.phonebook.tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import com.phonebook.fw.ApplicationManager;
+import org.openqa.selenium.remote.Browser;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
-import java.time.Duration;
+import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBase {
-    WebDriver driver;
+
+    protected static ApplicationManager app = new ApplicationManager
+            (System.getProperty("browser", Browser.CHROME.browserName()));
+
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
+
+    //@BeforeMethod
+    @BeforeSuite
+    public void setUp() {
+        app.init();
+    }
+
+  //  @AfterMethod(enabled = false)
+    @AfterSuite(enabled = true)
+    public void tearDown() {
+        app.stop();
+    }
 
     @BeforeMethod
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.get("https://telranedu.web.app");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    public void startTest(Method m, Object[] p) {
+        logger.info("Start test " + m.getName() + " with data: " + Arrays.asList(p));
     }
 
-    @AfterMethod(enabled = false)
-    public void tearDown() {
-        driver.quit();
-    }
-
-    public boolean isElementPresent(By locator) {
-        return driver.findElements(locator).size() > 0;
-    }
-
-    public boolean isElementPresent1(By locator) {
-        try {
-            driver.findElement(locator);
-            return true;
-        } catch (NoSuchElementException ex) {
-            return false;
+    @AfterMethod
+    public void stopTest(ITestResult result) {
+        if (result.isSuccess()) {
+            logger.info("PASSED: " + result.getMethod().getMethodName());
+        } else  {
+            logger.error("FAILED: " + result.getMethod().getMethodName());
         }
+        logger.info("Stop test");
+        logger.info("==================================================");
     }
+
 }
+
+//@BeforeTest
+    //@BeforeMethod
+        //@BeforeClass
+            //@BeforeSuite
+                //@BeforeGroups
+                //@AfterGroups
+            //@AfterSuite
+        //@AfterClass
+    //@AfterMethod
+//@AfterTest

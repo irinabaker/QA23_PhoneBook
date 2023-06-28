@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.CreateContactTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-06-27T15:47:45" hostname="DESKTOP-MIE8JAS" time="56.061">
+  <properties/>
+  <testcase name="addContactFromCsvFilePositiveTest[0](Contact{name='Karl', phone='1234567890'})" classname="com.phonebook.tests.CreateContactTests" time="2.391"/>
+  <testcase name="addContactFromCsvFilePositiveTest[1](Contact{name='Karl', phone='12345678901'})" classname="com.phonebook.tests.CreateContactTests" time="1.895"/>
+  <testcase name="addContactFromCsvFilePositiveTest[2](Contact{name='Karl', phone='12345678901234'})" classname="com.phonebook.tests.CreateContactTests" time="2.279"/>
+  <testcase name="addContactFromCsvFilePositiveTest[3](Contact{name='Karl', phone='123456789012345'})" classname="com.phonebook.tests.CreateContactTests" time="1.891"/>
+  <testcase name="addContactPositiveTest" classname="com.phonebook.tests.CreateContactTests" time="2.558"/>
+  <system-out><![CDATA[17:47:44.826 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test addContactFromCsvFilePositiveTest with data: [Contact{name='Karl', phone='1234567890'}]
+17:47:48.936 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+17:47:48.937 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+17:47:48.937 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+17:47:48.939 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test addContactFromCsvFilePositiveTest with data: [Contact{name='Karl', phone='12345678901'}]
+17:48:02.172 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+17:48:02.172 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+17:48:02.172 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+17:48:02.175 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test addContactFromCsvFilePositiveTest with data: [Contact{name='Karl', phone='12345678901234'}]
+17:48:15.635 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+17:48:15.635 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+17:48:15.635 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+17:48:15.638 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test addContactFromCsvFilePositiveTest with data: [Contact{name='Karl', phone='123456789012345'}]
+17:48:28.616 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactFromCsvFilePositiveTest
+17:48:28.616 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+17:48:28.617 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+17:48:28.627 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test addContactPositiveTest with data: []
+17:48:41.846 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveTest
+17:48:41.847 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+17:48:41.847 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
