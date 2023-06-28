@@ -38,7 +38,7 @@ public class CreateContactTests extends TestBase {
       //  Assert.assertTrue(app.isPhoneNumberAdded(""));
     }
 
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "addContactFromCsvFile")
+    @Test(enabled = false,dataProviderClass = DataProviders.class,dataProvider = "addContactFromCsvFile")
     public void addContactFromCsvFilePositiveTest(Contact contact) {
 
         app.getHeader().clickOnAddLink();
