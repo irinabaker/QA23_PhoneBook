@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-28T07:51:00" hostname="DESKTOP-MIE8JAS" time="0.118">
+<testsuite name="com.phonebook.tests.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-29T08:27:56" hostname="DESKTOP-MIE8JAS" time="0.836">
   <properties/>
-  <testcase name="verifyIsAboutLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.015"/>
-  <testcase name="verifyIsHomeLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.02"/>
-  <testcase name="verifyIsLoginLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.013"/>
-  <testcase name="verifyIsLogoPresent" classname="com.phonebook.tests.HeaderTests" time="0.017"/>
-  <system-out><![CDATA[09:51:00.731 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsAboutLinkPresent with data: []
-09:51:00.767 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsAboutLinkPresent
-09:51:00.768 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
-09:51:00.769 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
-09:51:00.770 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsHomeLinkPresent with data: []
-09:51:00.803 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsHomeLinkPresent
-09:51:00.804 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
-09:51:00.804 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
-09:51:00.807 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsLoginLinkPresent with data: []
-09:51:00.835 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsLoginLinkPresent
-09:51:00.835 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
-09:51:00.835 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
-09:51:00.838 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsLogoPresent with data: []
-09:51:00.870 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsLogoPresent
-09:51:00.870 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
-09:51:00.870 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+  <testcase name="verifyIsAboutLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.027"/>
+  <testcase name="verifyIsHomeLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.033"/>
+  <testcase name="verifyIsLoginLinkPresent" classname="com.phonebook.tests.HeaderTests" time="0.223"/>
+  <testcase name="verifyIsLogoPresent" classname="com.phonebook.tests.HeaderTests" time="0.12"/>
+  <system-out><![CDATA[10:27:56.575 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsAboutLinkPresent with data: []
+10:27:56.644 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsAboutLinkPresent
+10:27:56.645 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:27:56.646 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:27:56.650 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsHomeLinkPresent with data: []
+10:27:56.708 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsHomeLinkPresent
+10:27:56.709 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:27:56.709 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:27:56.711 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsLoginLinkPresent with data: []
+10:27:56.952 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsLoginLinkPresent
+10:27:56.952 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:27:56.952 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:27:56.954 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test verifyIsLogoPresent with data: []
+10:27:57.453 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: verifyIsLogoPresent
+10:27:57.453 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:27:57.453 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

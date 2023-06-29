@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-28T07:51:00" hostname="DESKTOP-MIE8JAS" time="0.029">
+<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-29T08:27:56" hostname="DESKTOP-MIE8JAS" time="0.144">
   <properties/>
-  <testcase name="openHomePageTest" classname="com.phonebook.tests.HomePageTests" time="0.029"/>
-  <system-out><![CDATA[09:51:00.689 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test openHomePageTest with data: []
-09:51:00.726 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: openHomePageTest
-09:51:00.726 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
-09:51:00.726 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+  <testcase name="openHomePageTest" classname="com.phonebook.tests.HomePageTests" time="0.144"/>
+  <system-out><![CDATA[10:27:56.412 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test openHomePageTest with data: []
+10:27:56.566 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: openHomePageTest
+10:27:56.566 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:27:56.567 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
